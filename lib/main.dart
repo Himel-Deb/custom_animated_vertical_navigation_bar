@@ -3,7 +3,7 @@ import 'package:navigation_vertical/screen/dashboard_screen.dart';
 import 'package:navigation_vertical/screen/home_screen.dart';
 import 'package:navigation_vertical/screen/profile_screen.dart';
 import 'package:navigation_vertical/screen/wallet_screen.dart';
-import 'package:navigation_vertical/screen/widget/custom_navigation_bar.dart';
+import 'package:navigation_vertical/widget/custom_navigation_bar.dart';
 
 void main() {
   runApp(const MyApp());
