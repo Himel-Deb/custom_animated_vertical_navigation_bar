@@ -15,13 +15,14 @@ class CustomNavigationBar extends StatelessWidget {
     required this.onItemSelected,
   });
 
+
   @override
   Widget build(BuildContext context) {
     return AnimatedPositioned(
       duration: const Duration(milliseconds: 300),
       curve: Curves.easeInOut,
       left: isVisible ? 0 : -60,
-      top: 100,
+      top: 110,
       child: Container(
         height: 230,
         decoration: BoxDecoration(

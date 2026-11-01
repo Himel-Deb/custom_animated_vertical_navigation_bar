@@ -21,10 +21,6 @@ class MyApp extends StatelessWidget {
   }
 }
 
-
-
-
-
 class MyAppMainScreenState extends StatefulWidget {
   const MyAppMainScreenState({super.key});
 
