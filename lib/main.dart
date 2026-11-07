@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:navigation_vertical/profile_card/animated_card_demo.dart';
+import 'package:navigation_vertical/profile_card/profile_card.dart';
 import 'package:navigation_vertical/screen/dashboard_screen.dart';
 import 'package:navigation_vertical/screen/home_screen.dart';
 import 'package:navigation_vertical/screen/profile_screen.dart';
@@ -16,10 +18,15 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: MyAppMainScreenState(),
+      home: AnimatedCardDemo(),
+      // home: ProfileCard(),
+      // home: CustomNavigationBar(),
     );
   }
 }
+
+
+
 
 class MyAppMainScreenState extends StatefulWidget {
   const MyAppMainScreenState({super.key});
