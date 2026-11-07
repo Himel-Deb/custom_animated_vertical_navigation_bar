@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:navigation_vertical/product_details_hero/product_grid_screen.dart';
 import 'package:navigation_vertical/profile_card/animated_card_demo.dart';
 import 'package:navigation_vertical/profile_card/profile_card.dart';
 import 'package:navigation_vertical/screen/dashboard_screen.dart';
@@ -18,7 +19,8 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: AnimatedCardDemo(),
+      home: ProductGridPage(),
+      // home: AnimatedCardDemo(),
       // home: ProfileCard(),
       // home: CustomNavigationBar(),
     );
